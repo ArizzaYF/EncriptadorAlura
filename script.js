@@ -33,7 +33,7 @@ function encriptarTexto(mensaje){
     var texto = mensaje;
     var textoFinal = "";
 
-    for(var i = 0; i < texto.lenght; i++){
+    for(var i = 0; i < texto.length; i++){
         if(texto[i] == "a"){
             textoFinal = textoFinal + "ai"
         }
