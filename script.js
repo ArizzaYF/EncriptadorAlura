@@ -89,7 +89,7 @@ function desencriptarTexto(mensaje){
 }
 
 const btncopiar = document.querySelector(".boton-copiar");
-    btncopiar.addEventListener("click", copiar = () =>{
+    btncopiar.addEventListener("click", function() {
         var contenido = document.querySelector(".texto-resultado").textContent;
         navigator.clipboard.writeText(contenido);
         console.log("hola");
